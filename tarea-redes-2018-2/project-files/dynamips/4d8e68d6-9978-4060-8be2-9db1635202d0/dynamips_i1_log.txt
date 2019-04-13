@@ -1,0 +1,31 @@
+Apr 13 15:06:56.317 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 13 15:06:56.325 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54297.
+Apr 13 15:06:56.527 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 13 15:06:56.527 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\kevin\GNS3\projects\tarea-redes-2018-2\project-files\dynamips 
+Apr 13 15:06:56.643 GENERAL: working_dir=C:\Users\kevin\GNS3\projects\tarea-redes-2018-2\project-files\dynamips
+Apr 13 15:06:56.643 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\kevin\GNS3\projects\tarea-redes-2018-2\project-files\dynamips\64da5c96-cf92-41d7-80f0-9a8bd289ea47 
+Apr 13 15:06:56.643 GENERAL: working_dir=C:\Users\kevin\GNS3\projects\tarea-redes-2018-2\project-files\dynamips\64da5c96-cf92-41d7-80f0-9a8bd289ea47
+Apr 13 15:06:56.643 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Apr 13 15:06:56.643 VM: VM R2 created.
+Apr 13 15:06:56.659 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5009 
+Apr 13 15:06:56.659 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Apr 13 15:06:56.659 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Apr 13 15:06:56.659 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Apr 13 15:06:56.659 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/kevin/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 13 15:06:56.659 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c202.0eb8.0000 
+Apr 13 15:06:56.659 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Apr 13 15:07:00.849 HYPERVISOR: exec_cmd: nio create_udp udp-44240599-12bc-4f9e-a4ee-54394e40ca61 10016 127.0.0.1 10017 
+Apr 13 15:07:01.513 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-44240599-12bc-4f9e-a4ee-54394e40ca61 
+Apr 13 15:07:01.513 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 13 15:07:02.382 HYPERVISOR: exec_cmd: nio create_udp udp-9ebeffdd-5095-4646-adb0-1b01e00cd111 10026 127.0.0.1 10027 
+Apr 13 15:07:02.398 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-9ebeffdd-5095-4646-adb0-1b01e00cd111 
+Apr 13 15:07:02.398 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 13 15:07:32.308 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 13 15:07:32.324 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 13 15:07:32.756 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 13 15:07:32.756 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 13 15:07:32.756 HYPERVISOR: exec_cmd: vm delete R2 
+Apr 13 15:07:32.756 VM: VM R2 destroyed.
+Apr 13 15:07:32.771 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 13 15:07:33.209 HYPERVISOR: Stopped.
+Apr 13 15:07:33.209 GENERAL: reset done.

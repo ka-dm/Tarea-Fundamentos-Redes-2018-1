@@ -1,0 +1,16 @@
+Apr 13 15:06:57.492 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 13 15:06:57.492 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54339.
+Apr 13 15:06:57.962 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 13 15:06:57.962 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\kevin\GNS3\projects\tarea-redes-2018-2\project-files\dynamips 
+Apr 13 15:06:57.962 GENERAL: working_dir=C:\Users\kevin\GNS3\projects\tarea-redes-2018-2\project-files\dynamips
+Apr 13 15:06:57.962 HYPERVISOR: exec_cmd: nio_bridge create Ethernethub-1 
+Apr 13 15:06:59.610 HYPERVISOR: exec_cmd: nio create_udp udp-411c7777-5572-4ff7-8f10-0932ce104def 10004 127.0.0.1 10005 
+Apr 13 15:06:59.626 HYPERVISOR: exec_cmd: nio_bridge add_nio Ethernethub-1 udp-411c7777-5572-4ff7-8f10-0932ce104def 
+Apr 13 15:06:59.748 HYPERVISOR: exec_cmd: nio create_udp udp-f2be4a7b-3411-4edb-ae41-25d9c6406c03 10007 127.0.0.1 10006 
+Apr 13 15:06:59.748 HYPERVISOR: exec_cmd: nio_bridge add_nio Ethernethub-1 udp-f2be4a7b-3411-4edb-ae41-25d9c6406c03 
+Apr 13 15:07:02.267 HYPERVISOR: exec_cmd: nio create_udp udp-47017f4e-190f-4c11-a5aa-8179bf782edd 10019 127.0.0.1 10018 
+Apr 13 15:07:02.267 HYPERVISOR: exec_cmd: nio_bridge add_nio Ethernethub-1 udp-47017f4e-190f-4c11-a5aa-8179bf782edd 
+Apr 13 15:07:32.455 HYPERVISOR: exec_cmd: nio_bridge delete Ethernethub-1 
+Apr 13 15:07:32.540 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 13 15:07:32.571 HYPERVISOR: Stopped.
+Apr 13 15:07:32.571 GENERAL: reset done.
